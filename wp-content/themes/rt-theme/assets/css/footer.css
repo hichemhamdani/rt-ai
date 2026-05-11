@@ -68,39 +68,23 @@
     flex: 1;
 }
 
-/* Auteur — deux divs séparées */
+/* Auteur — une seule div, fond bleu section */
 .rt-testimonial__author {
     display: flex;
-    align-items: stretch;
-}
-
-.rt-testimonial__author-left {
-    background: var(--rt-bright-blue);
-    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 0.8rem;
+    background: var(--rt-bg-light);
     padding: 1rem 1.4rem;
-    flex-shrink: 0;
-}
-
-.rt-testimonial__author-right {
-    background: var(--rt-white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.15rem;
-    padding: 1rem 1.4rem;
-    flex: 1;
 }
 
 /* Avatar circulaire */
 .rt-testimonial__avatar {
+    flex-shrink: 0;
     width: 42px;
     height: 42px;
     border-radius: 50%;
     overflow: hidden;
-    background: rgba(255,255,255,0.2);
-    border: 2px solid rgba(255,255,255,0.5);
+    background: var(--rt-dark-blue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,14 +105,20 @@
 }
 
 /* Nom + handle */
-.rt-testimonial__author-right strong {
+.rt-testimonial__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.rt-testimonial__info strong {
     font-family: var(--rt-font-body);
     font-size: 0.92rem;
     font-weight: 600;
     color: #1a1a2e;
 }
 
-.rt-testimonial__author-right span {
+.rt-testimonial__info span {
     font-family: var(--rt-font-body);
     font-size: 0.8rem;
     font-weight: 400;
