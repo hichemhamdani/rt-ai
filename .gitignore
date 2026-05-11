@@ -20,6 +20,8 @@ wp-content/wp-cache-config.php
 wp-content/object-cache.php
 wp-content/wflogs/
 wp-content/updraft/
+wp-content/plugins/all-in-one-wp-migration/storage/
+*.wpress
 
 # ==============================
 # Logs
