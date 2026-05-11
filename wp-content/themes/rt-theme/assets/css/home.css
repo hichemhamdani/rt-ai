@@ -973,15 +973,13 @@ h2.rt-h2-animated,
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    align-items: center;
+    align-items: start;
 }
 
-/* Image gauche — encadrée, centrée */
+/* Image gauche — sticky au scroll */
 .rt-consultation__image {
-    position: static;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: sticky;
+    top: 120px;
 }
 
 .rt-consultation__image-frame {
