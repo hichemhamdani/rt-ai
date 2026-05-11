@@ -1,0 +1,58 @@
+<?php
+
+class HandLUTM_MergeTags extends NF_Abstracts_MergeTags
+{
+  /*
+   * The $id property should match the array key where the class is registered.
+   */
+  protected $id = 'handl_utm_merge_tags';
+  
+  public function __construct()
+  {
+    parent::__construct();
+    
+    /* Translatable display name for the group. */
+    $this->title = __( 'HandL UTM Grabber', 'ninja-forms' );
+    
+    /* Individual tag registration. */
+    
+    $my_merge_tags = array();
+    $fields = generateUTMFields();
+    
+    // Get Ninja Forms version
+    $nf_version = get_option('ninja_forms_version', '0');
+    
+    foreach ($fields as $field) {
+        $cookie_field = isset($_COOKIE[$field]) ? $_COOKIE[$field] : '';
+        
+        // Use different callback format based on version
+        if ($nf_version === '3.9.2') {
+            $callback = urldecode($cookie_field);
+        } else {
+            $callback = function() use ($cookie_field) {
+                return urldecode($cookie_field);
+            };
+        }
+        
+        $my_merge_tags[$field] = array(
+            'id' => $field,
+            'tag' => '{handl:'.$field.'}', // The tag to be  used.
+            'label' => __( $field, 'handl_utm_grabber' ), // Translatable label for tag selection.
+            'callback' => $callback
+        );
+    }
+    
+    $this->merge_tags = $my_merge_tags;
+    
+    /*
+     * Use the `init` and `admin_init` hooks for any necessary data setup that relies on WordPress.
+     * See: https://codex.wordpress.org/Plugin_API/Action_Reference
+     */
+    add_action( 'init', array( $this, 'init' ) );
+    add_action( 'admin_init', array( $this, 'admin_init' ) );
+  }
+  
+  public function init(){ /* This section intentionally left blank. */ }
+  public function admin_init(){ /* This section intentionally left blank. */ }
+  
+}

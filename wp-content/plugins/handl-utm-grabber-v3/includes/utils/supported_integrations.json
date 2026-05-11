@@ -1,0 +1,259 @@
+[
+  {
+    "docs": "https://docs.utmgrabber.com/books/calcom-integration/page/track-utms-in-calcom",
+    "plugin_id": ["cal-com/cal.com.php"],
+    "title": "Cal.com Integration",
+    "description": "Seamlessly track UTM parameters on your Cal.com appointments with UTMGrabber, enabling more effective campaign analytics and marketing insights.",
+    "id": "calcom"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/caldera-forms-integration/page/track-utm-in-caldera-form",
+    "video": "https://www.youtube.com/watch?v=VvqJyAG4YNA",
+    "plugin_id": ["caldera-forms/caldera-core.php"],
+    "title": "Caldera Forms Integration",
+    "description": "Seamlessly track UTM parameters on your Caldera Forms submissions with UTMGrabber. Enhance your campaign insights by automatically capturing marketing data directly from your forms.",
+    "id": "caldera_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/cognito-forms-integration/page/cognito-form-embed-script-implementation",
+    "plugin_id": ["cognito-forms/cognito-forms.php"],
+    "title": "Cognito Forms Integration",
+    "description": "Effortlessly integrate Cognito Forms with UTMGrabber using the embed script implementation to track form submissions and conversions.",
+    "id": "cognito_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/contact-form-7-integration/page/contact-form-7-native-integration-for-collecting-utms",
+    "video": "https://www.youtube.com/watch?v=0iGiXhbfBuI",
+    "plugin_id": ["contact-form-7/wp-contact-form-7.php"],
+    "title": "Contact Form 7 Integration",
+    "description": "Seamlessly capture UTM parameters from your WordPress site using Contact Form 7. This integration empowers you to track campaigns effortlessly with UTMGrabber.",
+    "id": "contact_form7"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/divi-integration/page/track-utms-in-divi-contact-form",
+    "check_type": "constant",
+    "plugin_id": ["ET_CORE_VERSION"],
+    "title": "Divi Integration",
+    "description": "Easily track UTM parameters from Divi contact forms with UTMGrabber's seamless integration, ensuring enhanced marketing insights without hassle.",
+    "id": "divi"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/easy-registration-forms/page/collect-utms-using-easy-registration-forms-erforms",
+    "plugin_id": ["easy-registration-forms/erforms.php"],
+    "title": "Easy Registration Forms",
+    "description": "Integrate the Easy Registration Forms WordPress plugin with UTMGrabber to effortlessly capture UTM parameters from your registration forms and enhance campaign tracking.",
+    "id": "easy_registration_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/elementor-integration/page/native-elementor-form-support",
+    "plugin_id": ["elementor/elementor.php"],
+    "title": "Elementor Integration",
+    "description": "Seamlessly integrate Elementor forms with UTMGrabber for enhanced tracking and analytics on your WordPress site. Check out our documentation for a quick setup guide and to learn more about native Elementor form support.",
+    "id": "elementor"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/form-maker-integration/page/form-maker-integration",
+    "plugin_id": ["form-maker/form-maker.php"],
+    "title": "Form Maker Integration",
+    "description": "Seamlessly connect your Form Maker plugin with UTM Grabber to capture form submissions, track UTM parameters, and gain valuable marketing insights on your WordPress site.",
+    "id": "form_maker"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/formidable-forms-integration/page/formidable-form-integration",
+    "video": "https://www.youtube.com/watch?v=6mcwkvxfUXA",
+    "plugin_id": ["formidable/formidable.php"],
+    "title": "Formidable Forms Integration",
+    "description": "Seamlessly connect Formidable Forms with UTMGrabber to capture and analyze form submissions, enhancing tracking and conversion insights on your WordPress site.",
+    "id": "formidable_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/forminator/page/forminator-form-utm-integration",
+    "plugin_id": ["forminator/forminator.php"],
+    "title": "Forminator",
+    "description": "Seamlessly integrate Forminator forms with UTMGrabber to capture UTM parameters and boost your marketing analytics. Enhance tracking and improve campaign performance with this easy integration.",
+    "id": "forminator"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/formstack-forms/page/capture-utms-using-formstack-forms",
+    "plugin_id": ["formstack/plugin.php"],
+    "title": "Formstack Forms",
+    "description": "Capture and track UTM parameters seamlessly with the Formstack Forms integration. UTMGrabber allows you to record essential campaign data directly from your form submissions, optimizing your marketing insights.",
+    "id": "formstack_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/funnelkit/page/track-utms-in-funnelkit",
+    "plugin_id": [
+      "funnel-builder/funnel-builder.php",
+      "funnel-builder-pro/funnel-builder-pro.php"
+    ],
+    "title": "FunnelKit",
+    "description": "Integrate FunnelKit with UTMGrabber to effortlessly track UTM parameters in your funnels. Enhance your marketing insights with seamless WordPress integration. Refer to our docs for a quick setup.",
+    "id": "funnelkit"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/gravity-forms-integration/page/gravity-forms-integration",
+    "video": "https://www.youtube.com/watch?v=ihKu6Z5gsjY",
+    "plugin_id": ["gravityforms/gravityforms.php"],
+    "title": "Gravity Forms Integration",
+    "description": "Great news—our <b>one-click integration</b> lets you add over 20+ tracking parameters to all your Gravity Forms with just one click.",
+    "id": "gravity_forms",
+    "integration_page": "?page=handl-utm-grabber.php&tab=gravity-forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/hubspot-integration/page/track-utms-in-hubspot-form",
+    "plugin_id": ["leadin/leadin.php"],
+    "title": "HubSpot Integration",
+    "description": "Easily capture and track UTM parameters in HubSpot forms with UTMGrabber. Enhance your campaign attribution and lead tracking directly within your WordPress site.",
+    "id": "hubspot"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/jetformbuilder/page/track-utms-in-jetform-builder",
+    "plugin_id": ["jetformbuilder/jet-form-builder.php"],
+    "title": "JetFormBuilder",
+    "description": "Easily track UTM parameters on form submissions with the JetFormBuilder integration. Enhance your marketing insights by automatically capturing and storing UTMs from your forms.",
+    "id": "jetformbuilder"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/jotform-integration/page/jotform-utm-tracking-via-iframe-embed",
+    "plugin_id": ["embed-form/jotform-wp-embed.php"],
+    "title": "JotForm Integration",
+    "description": "Seamlessly track UTM parameters on your JotForm forms via an easy-to-embed iframe integration. Enhance your campaign tracking and gain valuable insights with minimal setup.",
+    "id": "jotform"
+  },
+  {
+    "noSetupRequired": true,
+    "plugin_id": ["latepoint/latepoint.php"],
+    "title": "LatePoint",
+    "description": "There is no setup required, we natively track all the params and capture them once booking is completed.",
+    "id": "latepoint",
+    "docs":"https://docs.utmgrabber.com/books/latepoint-scheduling-for-your-business/page/utm-tracking-in-latepoint"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/mailchimp-for-wordpress-integration/page/mailchimp-for-wordpress-integration",
+    "plugin_id": ["mailchimp/mailchimp.php"],
+    "title": "Mailchimp For Wordpress Integration",
+    "description": "Seamlessly integrate Mailchimp with your WordPress site for enhanced email marketing, subscriber management, and campaign automation.",
+    "id": "mailchimp_for_wordpress"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/mailerlite-integration/page/how-to-collect-utms-in-mailerlite",
+    "plugin_id": ["official-mailerlite-sign-up-forms/mailerlite.php"],
+    "title": "MailerLite Integration",
+    "description": "Integrate UTMGrabber with MailerLite to seamlessly capture and sync UTM parameters for optimized campaign tracking.",
+    "id": "mailerlite"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/ninja-forms-integration/page/ninja-forms-integration",
+    "video": "http://www.youtube.com/watch?v=UaO4748x4ho",
+    "plugin_id": ["ninja-forms/ninja-forms.php"],
+    "title": "Ninja Forms Integration",
+    "description": "Seamlessly integrate Ninja Forms with UTMGrabber to track form submissions and capture UTM parameters for detailed campaign insights.",
+    "id": "ninja_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/optimizeleads/page/capture-utms-in-optimizeleads-form",
+    "plugin_id": null,
+    "title": "OptimizeLeads",
+    "description": "Easily capture UTM parameters in your OptimizeLeads forms with this integration. Enhance your lead tracking and attribution by automatically transferring UTM data via UTMGrabber.",
+    "id": "optimizeleads"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/optimizepress-integration/page/optimizepress-and-infusionsoft-integration",
+    "plugin_id": null,
+    "title": "OptimizePress Integration",
+    "description": "Seamlessly connect OptimizePress with UTMGrabber to track page performance and convert leads. This integration also supports passing data efficiently to Infusionsoft.",
+    "id": "optimizepress"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/pardot-integration/page/pardot-integration",
+    "plugin_id": ["paradot/pardot.php"],
+    "title": "Pardot Integration",
+    "description": "Easily connect Pardot with UTMGrabber to track your marketing campaigns and capture UTM parameters on your WordPress site. Enhance your lead management and analytics with a seamless integration.",
+    "id": "pardot"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/piotnet-forms-integration/page/collecting-utms-in-piotnet",
+    "plugin_id": ["piotnet-forms/piotnet-forms.php"],
+    "title": "Piotnet Forms Integration",
+    "description": "Easily collect UTM parameters submitted via Piotnet Forms on your WordPress site. Enhance campaign tracking and optimize marketing performance with seamless integration.",
+    "id": "piotnet_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/quform-integration/page/quform-integration",
+    "plugin_id": ["quform/quform.php"],
+    "title": "Quform Integration",
+    "description": "Integrate your Quform forms with UTMgrabber to automatically track UTM parameters and gain campaign insights from each submission.",
+    "id": "quform"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/surecart/page/track-utms-in-surecart",
+    "plugin_id": ["surecart/surecart.php"],
+    "title": "SureCart",
+    "description": "Integrate UTM tracking directly into your SureCart orders. Automatically capture and manage UTM parameters to link your marketing campaigns with sales for improved analytics.",
+    "id": "surecart"
+  },
+  {
+    "video": "http://www.youtube.com/watch?v=doNlcWJt-xk",
+    "plugin_id": ["thrive-leads/thrive-leads.php"],
+    "title": "Thrive Leads Integration",
+    "description": "Integrate Thrive Leads with UTM Grabber to effortlessly track lead sources and campaign performance, enabling smarter marketing strategies directly within your WordPress setup.",
+    "id": "thrive_leads"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/typebot-integration/page/utm-tracking-in-typebot",
+    "plugin_id": ["typebot/typebot.php"],
+    "title": "TypeBot Integration",
+    "description": "Easily integrate TypeBot with UTMGrabber to automatically track UTM parameters and enhance your campaign analytics. Leverage our simple setup to connect your chatbot interactions with detailed marketing insights.",
+    "id": "typebot"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/typeform-integration/page/typeform-integration-preferred-advanced",
+    "plugin_id": ["typeform/index.php"],
+    "title": "Typeform Integration",
+    "description": "Integrate Typeform with UTMGrabber to effortlessly track form submissions, capture UTM data, and gain actionable insights on your WordPress site.",
+    "id": "typeform"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/woocommerce-integration/page/collect-utms-in-woocommerce-orderpage",
+    "noSetupRequired": true,
+    "plugin_id": ["woocommerce/woocommerce.php"],
+    "title": "WooCommerce Integration",
+    "description": "There is no settings/adjustments required. Once you receive order, all the UTM variables and other custom parameters will be available in HandL UTM Grabber meta box and custom fields. Click the documentation link below for more.",
+    "id": "woocommerce_integration"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/wp-fluent-forms-integration/page/fluent-forms-utm-tracking",
+    "plugin_id": ["fluentform/fluentform.php"],
+    "title": "WP Fluent Forms Integration",
+    "description": "Easily track UTM parameters and enhance your marketing analytics by integrating Fluent Forms with UTMGrabber. This integration streamlines data capture from your form submissions, helping you evaluate campaign performance effortlessly.",
+    "id": "fluent_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/wp-forms-integration/page/wpforms-integration",
+    "plugin_id": ["wpforms/wpforms.php", "wpforms-lite/wpforms.php"],
+    "title": "WP Forms Integration",
+    "description": "Seamlessly connect WP Forms with UTMGrabber to capture form submissions and enhance your marketing analytics effortlessly.",
+    "id": "wp_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/wpeverest-forms-integration/page/utm-tracking-in-wpeverest",
+    "plugin_id": ["everest-forms/everest-forms.php"],
+    "title": "WPEverest Forms Integration",
+    "description": "Seamlessly integrate UTM tracking with WP Everest Forms on your WordPress site. Capture UTM parameters on every form submission to better measure campaign performance and optimize your marketing efforts.",
+    "id": "wpeverest_forms"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/ws-form/page/how-to-track-utms-in-ws-form",
+    "plugin_id": ["ws-form/ws-form.php", "ws-form-pro/ws-form.php"],
+    "title": "WS Form",
+    "description": "Easily track UTM parameters with the WS Form integration in UTMGrabber. Capture marketing data from your WordPress forms effortlessly.",
+    "id": "ws_form"
+  },
+  {
+    "docs": "https://docs.utmgrabber.com/books/zoho-forms-integration/page/zoho-form-embed-forms-using-javascript",
+    "plugin_id": ["zoho-forms/zohoForms.php"],
+    "title": "Zoho Forms Integration",
+    "description": "Seamlessly embed Zoho Forms into your WordPress site with UTMGrabber. Capture UTM parameters effortlessly while enhancing lead tracking and form performance.",
+    "id": "zoho_forms"
+  }
+]

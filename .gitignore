@@ -1,0 +1,62 @@
+# ==============================
+# WordPress — credentials
+# ==============================
+wp-config.php
+
+# ==============================
+# Uploads — gérés via WP export
+# ==============================
+wp-content/uploads/
+wp-content/blogs.dir/
+
+# ==============================
+# Cache & fichiers générés
+# ==============================
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+wp-content/wflogs/
+wp-content/updraft/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+error_log
+wp-content/debug.log
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ==============================
+# IDE / éditeurs
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ==============================
+# Node (si build frontend)
+# ==============================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ==============================
+# Local WP (environnement local)
+# ==============================
+.local/
+wp-content/mysql.sql

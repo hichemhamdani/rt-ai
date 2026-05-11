@@ -1,0 +1,197 @@
+/* ===========================
+   VARIABLES & RESET
+   =========================== */
+:root {
+    --rt-dark-blue:   #17376C;
+    --rt-bright-blue: #0058FC;
+    --rt-cyan:        #A1FAFF;
+    --rt-yellow:      #FFCE00;
+    --rt-black:       #111111;
+    --rt-white:       #FFFFFF;
+    --rt-bg-light:    #F3F6FD;
+    --rt-border:      #E0E0E0;
+    --rt-divider:     #F2F2F2;
+
+    --rt-font-heading: 'Oswald', sans-serif;
+    --rt-font-body:    'Reddit Sans', sans-serif;
+    --rt-font-alt:     'Fira Sans Condensed', sans-serif;
+
+    --rt-container:     1320px;
+    --rt-gap:           3rem;
+    --rt-header-height: 108px;
+
+    --rt-btn-grad: linear-gradient(90deg, var(--rt-dark-blue), var(--rt-bright-blue));
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+html, body { overflow-x: hidden; }
+
+body {
+    font-family: var(--rt-font-body);
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--rt-dark-blue);
+    background: var(--rt-bg-light);
+    -webkit-font-smoothing: antialiased;
+}
+
+img, video { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--rt-bright-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+ul { list-style: none; }
+
+/* ===========================
+   CONTAINER
+   =========================== */
+.rt-container {
+    max-width: var(--rt-container);
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+/* ===========================
+   TYPOGRAPHY
+   =========================== */
+h1, h2, h3 {
+    font-family: var(--rt-font-heading);
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: var(--rt-dark-blue);
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 3rem; }
+h3 { font-size: 1.5rem; }
+
+h4, h5, h6 {
+    font-family: var(--rt-font-alt);
+    font-weight: 500;
+    color: var(--rt-dark-blue);
+}
+
+.rt-preheading {
+    font-family: var(--rt-font-body);
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--rt-bright-blue);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.rt-lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+p { margin-bottom: 1rem; }
+p:last-child { margin-bottom: 0; }
+
+/* ===========================
+   BUTTONS
+   =========================== */
+.rt-btn {
+    display: inline-block;
+    font-family: var(--rt-font-heading);
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1rem 2rem;
+    background: var(--rt-btn-grad);
+    color: var(--rt-bg-light);
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.rt-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    text-decoration: none;
+    color: var(--rt-white);
+}
+
+.rt-btn--sm {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.6rem 1.4rem;
+}
+
+.rt-btn--outline {
+    background: transparent;
+    border: 1.5px solid var(--rt-white);
+    color: var(--rt-white);
+}
+
+.rt-btn--white {
+    background: var(--rt-white);
+    color: var(--rt-dark-blue);
+}
+
+.rt-btn--dark {
+    background: var(--rt-dark-blue);
+    color: var(--rt-white);
+}
+
+.rt-btn--dark:hover {
+    background: var(--rt-dark-blue);
+    color: var(--rt-white);
+    opacity: 1;
+    transform: none;
+}
+
+/* ===========================
+   SECTION UTILITIES
+   =========================== */
+.rt-section {
+    padding-block: 5rem;
+}
+
+.rt-section--dark {
+    background: var(--rt-dark-blue);
+    color: var(--rt-white);
+}
+
+.rt-section--white {
+    background: var(--rt-white);
+}
+
+.rt-section__header {
+    margin-bottom: 3rem;
+}
+
+.rt-divider {
+    width: 60px;
+    height: 2px;
+    background: var(--rt-yellow);
+    margin-block: 1.2rem;
+}
+
+/* ===========================
+   BADGE
+   =========================== */
+.rt-badge {
+    display: inline-block;
+    background: var(--rt-cyan);
+    color: var(--rt-dark-blue);
+    font-family: var(--rt-font-body);
+    font-size: 0.65rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2px 5px;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+}
