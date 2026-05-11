@@ -30,6 +30,7 @@ $testimonials = [
 ];
 ?>
 <div class="rt-testimonials">
+    <div class="rt-container">
     <div class="rt-carousel" id="rt-testimonials-carousel" data-autoplay="false">
         <div class="rt-carousel__track">
             <?php foreach ( $testimonials as $t ) : ?>
@@ -66,5 +67,6 @@ $testimonials = [
             <?php endforeach; ?>
         </div>
         <div class="rt-carousel__dots" id="rt-testimonials-dots"></div>
+    </div>
     </div>
 </div>
