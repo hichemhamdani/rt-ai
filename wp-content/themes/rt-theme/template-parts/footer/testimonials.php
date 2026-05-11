@@ -31,7 +31,7 @@ $testimonials = [
 ?>
 <div class="rt-testimonials">
     <div class="rt-container">
-    <div class="rt-carousel" id="rt-testimonials-carousel" data-autoplay="false">
+    <div class="rt-carousel" id="rt-testimonials-carousel" data-autoplay="false" data-visible="3">
         <div class="rt-carousel__track">
             <?php foreach ( $testimonials as $t ) : ?>
             <div class="rt-carousel__slide rt-testimonial">
