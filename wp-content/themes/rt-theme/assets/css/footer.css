@@ -68,24 +68,39 @@
     flex: 1;
 }
 
-/* Auteur — moitié gauche bleue, moitié droite blanche */
+/* Auteur — deux divs séparées */
 .rt-testimonial__author {
     display: flex;
+    align-items: stretch;
+}
+
+.rt-testimonial__author-left {
+    background: var(--rt-bright-blue);
+    display: flex;
     align-items: center;
-    gap: 0.75rem;
-    background: linear-gradient(to right, var(--rt-dark-blue) 50%, var(--rt-white) 50%);
-    padding: 1rem 2rem;
+    justify-content: center;
+    padding: 1rem 1.4rem;
+    flex-shrink: 0;
+}
+
+.rt-testimonial__author-right {
+    background: var(--rt-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.15rem;
+    padding: 1rem 1.4rem;
+    flex: 1;
 }
 
 /* Avatar circulaire */
 .rt-testimonial__avatar {
-    flex-shrink: 0;
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     overflow: hidden;
-    background: rgba(255,255,255,0.15);
-    border: 2px solid rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,20 +121,14 @@
 }
 
 /* Nom + handle */
-.rt-testimonial__info {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-}
-
-.rt-testimonial__info strong {
+.rt-testimonial__author-right strong {
     font-family: var(--rt-font-body);
     font-size: 0.92rem;
     font-weight: 600;
     color: #1a1a2e;
 }
 
-.rt-testimonial__info span {
+.rt-testimonial__author-right span {
     font-family: var(--rt-font-body);
     font-size: 0.8rem;
     font-weight: 400;

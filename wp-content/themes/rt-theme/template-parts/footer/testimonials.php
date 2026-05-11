@@ -40,14 +40,16 @@ $testimonials = [
                         <p class="rt-testimonial__quote"><?php echo esc_html( $t['quote'] ); ?></p>
                     </div>
                     <div class="rt-testimonial__author">
-                        <div class="rt-testimonial__avatar">
-                            <?php if ( ! empty( $t['avatar'] ) ) : ?>
-                                <img src="<?php echo esc_url( $t['avatar'] ); ?>" alt="<?php echo esc_attr( $t['name'] ); ?>">
-                            <?php else : ?>
-                                <span><?php echo esc_html( $t['initials'] ); ?></span>
-                            <?php endif; ?>
+                        <div class="rt-testimonial__author-left">
+                            <div class="rt-testimonial__avatar">
+                                <?php if ( ! empty( $t['avatar'] ) ) : ?>
+                                    <img src="<?php echo esc_url( $t['avatar'] ); ?>" alt="<?php echo esc_attr( $t['name'] ); ?>">
+                                <?php else : ?>
+                                    <span><?php echo esc_html( $t['initials'] ); ?></span>
+                                <?php endif; ?>
+                            </div>
                         </div>
-                        <div class="rt-testimonial__info">
+                        <div class="rt-testimonial__author-right">
                             <strong><?php echo esc_html( $t['name'] ); ?></strong>
                             <span><?php echo esc_html( $t['handle'] ); ?></span>
                         </div>
