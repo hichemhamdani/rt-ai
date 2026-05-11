@@ -35,8 +35,10 @@ $testimonials = [
             <div class="rt-carousel__track">
                 <?php foreach ( $testimonials as $t ) : ?>
                 <div class="rt-carousel__slide rt-testimonial">
-                    <div class="rt-testimonial__quote-mark">&ldquo;</div>
-                    <p class="rt-testimonial__quote"><?php echo esc_html( $t['quote'] ); ?></p>
+                    <div class="rt-testimonial__content">
+                        <div class="rt-testimonial__quote-mark">&ldquo;</div>
+                        <p class="rt-testimonial__quote"><?php echo esc_html( $t['quote'] ); ?></p>
+                    </div>
                     <div class="rt-testimonial__author">
                         <div class="rt-testimonial__avatar">
                             <?php if ( ! empty( $t['avatar'] ) ) : ?>
