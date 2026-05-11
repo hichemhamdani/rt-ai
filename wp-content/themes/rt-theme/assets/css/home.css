@@ -1002,6 +1002,7 @@ h2.rt-h2-animated,
     background: var(--rt-white);
     border: 2px solid var(--rt-yellow);
     padding: 2.5rem 2.5rem 2rem;
+    box-shadow: 0 8px 40px rgba(23, 55, 108, 0.12);
 }
 
 .rt-consultation__form-col h2 {

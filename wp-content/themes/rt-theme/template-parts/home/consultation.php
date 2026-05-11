@@ -14,7 +14,10 @@
                 <span class="rt-preheading">Free Consultation</span>
                 <h2>Talk To An Expert</h2>
                 <p>
-                    Not sure which gas supply solution is right for you? Our engineers will analyze your current setup, calculate your consumption costs, and present the most efficient options — at no charge.
+                    Maintaining a reliable gas supply can be a costly endeavor, and the costs are not always obvious when you are first trying to establish your budget.
+                </p>
+                <p>
+                    Get in touch, and our experts will discuss your needs, help layout requirements, and find the best approach to address your supply challenges.
                 </p>
                 <div class="rt-consultation__form">
                     <iframe
