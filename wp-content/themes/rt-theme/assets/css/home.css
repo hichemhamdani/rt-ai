@@ -967,19 +967,23 @@ h2.rt-h2-animated,
    =========================== */
 .rt-consultation {
     background: var(--rt-bg-light);
+    padding-top: 2.5rem;
 }
 
 .rt-consultation__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 2rem;
     align-items: start;
+    max-width: 1100px;
+    margin-inline: auto;
 }
 
 /* Image gauche — sticky au scroll */
 .rt-consultation__image {
     position: sticky;
-    top: 120px;
+    top: 150px;
+    align-self: start;
 }
 
 .rt-consultation__image-frame {
@@ -991,8 +995,7 @@ h2.rt-h2-animated,
 
 .rt-consultation__image img {
     width: 100%;
-    max-width: 460px;
-    height: 380px;
+    height: 480px;
     object-fit: cover;
     display: block;
 }
