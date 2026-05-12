@@ -18,12 +18,16 @@ add_action( 'wp_enqueue_scripts', function() {
     wp_enqueue_style( 'rt-home',       $uri . '/assets/css/home.css',       ['rt-main'],  $v );
     wp_enqueue_style( 'rt-responsive', $uri . '/assets/css/responsive.css', ['rt-main'],  $v );
 
+    // GSAP
+    wp_enqueue_script( 'gsap',              'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js',              [], null, true );
+
     // JS
     wp_enqueue_script( 'rt-header',   $uri . '/assets/js/header.js',   [], $v, true );
     wp_enqueue_script( 'rt-megamenu', $uri . '/assets/js/megamenu.js', [], $v, true );
     wp_enqueue_script( 'rt-carousel', $uri . '/assets/js/carousel.js', [], $v, true );
     wp_enqueue_script( 'rt-faq',        $uri . '/assets/js/faq.js',        [], $v, true );
-    wp_enqueue_script( 'rt-animations', $uri . '/assets/js/animations.js', [], $v, true );
+    wp_enqueue_script( 'rt-animations',    $uri . '/assets/js/animations.js',    [], $v, true );
+    wp_enqueue_script( 'rt-craft-slider',  $uri . '/assets/js/craft-slider.js',  ['gsap'], $v, true );
 
     // Pass ajaxurl for potential future use
     wp_localize_script( 'rt-header', 'rtTheme', [

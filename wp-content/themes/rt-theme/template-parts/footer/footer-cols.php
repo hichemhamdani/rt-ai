@@ -9,12 +9,15 @@
                     RT is an American industrial gas solution provider based in Washington State.
                     We specialize in the production, transfer, and storage of industrial gases.
                 </p>
-                <a href="https://www.linkedin.com/company/rutherford-titan" class="rt-footer-social" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <div class="rt-footer-social-wrap">
+                    <span class="rt-footer-follow">Follow us</span>
+                    <a href="https://www.linkedin.com/company/rutherford-titan" class="rt-footer-social" target="_blank" rel="noopener" aria-label="LinkedIn">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
                         <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
                     </svg>
                 </a>
+                </div>
             </div>
 
             <!-- Col 2 — LN2 Generators -->
@@ -22,16 +25,13 @@
                 <h5 class="rt-footer-col__title">LN2 Generators</h5>
                 <ul class="rt-footer-col__links">
                     <li>
-                        <svg width="6" height="6" viewBox="0 0 6 6" fill="#0058FC" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="3" cy="3" r="3"/></svg>
-                        <a href="<?php echo esc_url( get_permalink(2949) ); ?>">On-Site LN2 Generators</a>
+<a href="<?php echo esc_url( get_permalink(2949) ); ?>">On-Site LN2 Generators</a>
                     </li>
                     <li>
-                        <svg width="6" height="6" viewBox="0 0 6 6" fill="#0058FC" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="3" cy="3" r="3"/></svg>
-                        <a href="<?php echo esc_url( get_permalink(3722) ); ?>">The true cost of LN2 in the USA</a>
+<a href="<?php echo esc_url( get_permalink(3722) ); ?>">The true cost of LN2 in the USA</a>
                     </li>
                     <li>
-                        <svg width="6" height="6" viewBox="0 0 6 6" fill="#0058FC" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="3" cy="3" r="3"/></svg>
-                        <a href="<?php echo esc_url( get_permalink(2949) ); ?>">Why invest in LN2 generators</a>
+<a href="<?php echo esc_url( get_permalink(2949) ); ?>">Why invest in LN2 generators</a>
                     </li>
                 </ul>
             </div>
@@ -41,16 +41,13 @@
                 <h5 class="rt-footer-col__title">Useful Links</h5>
                 <ul class="rt-footer-col__links">
                     <li>
-                        <svg width="6" height="6" viewBox="0 0 6 6" fill="#0058FC" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="3" cy="3" r="3"/></svg>
-                        <a href="<?php echo esc_url( get_permalink(16) ); ?>">Contact Us</a>
+<a href="<?php echo esc_url( get_permalink(16) ); ?>">Contact Us</a>
                     </li>
                     <li>
-                        <svg width="6" height="6" viewBox="0 0 6 6" fill="#0058FC" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="3" cy="3" r="3"/></svg>
-                        <a href="<?php echo esc_url( get_permalink(6292) ); ?>">Join Us</a>
+<a href="<?php echo esc_url( get_permalink(6292) ); ?>">Join Us</a>
                     </li>
                     <li>
-                        <svg width="6" height="6" viewBox="0 0 6 6" fill="#0058FC" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="3" cy="3" r="3"/></svg>
-                        <a href="<?php echo esc_url( get_permalink(9) ); ?>">Follow Your Order</a>
+<a href="<?php echo esc_url( get_permalink(9) ); ?>">Follow Your Order</a>
                     </li>
                 </ul>
             </div>

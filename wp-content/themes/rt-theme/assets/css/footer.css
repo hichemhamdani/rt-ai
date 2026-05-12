@@ -168,6 +168,20 @@
     margin-bottom: 1rem;
 }
 
+.rt-footer-social-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+
+.rt-footer-follow {
+    font-family: var(--rt-font-body);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--rt-dark-blue);
+}
+
 .rt-footer-social {
     display: inline-flex;
     align-items: center;
