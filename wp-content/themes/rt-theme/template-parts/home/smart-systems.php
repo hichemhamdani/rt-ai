@@ -2,8 +2,8 @@
 
     <div class="rt-smart__img-left">
         <div class="rt-smart__img-frame">
-            <img src="<?php echo esc_url( content_url('/uploads/Industrial-gases.jpeg') ); ?>"
-                 alt="RT industrial gas facility" loading="lazy">
+            <img src="<?php echo esc_url( content_url('/uploads/Maintenance-RT.jpeg') ); ?>"
+                 alt="RT industrial technician" loading="lazy">
         </div>
     </div>
 
