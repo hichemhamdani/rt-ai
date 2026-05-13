@@ -29,6 +29,12 @@ add_action( 'wp_enqueue_scripts', function() {
     wp_enqueue_script( 'rt-animations',    $uri . '/assets/js/animations.js',    [], $v, true );
     wp_enqueue_script( 'rt-craft-slider',  $uri . '/assets/js/craft-slider.js',  ['gsap'], $v, true );
 
+    // Single product (LN2 new design)
+    if ( is_product() ) {
+        wp_enqueue_style(  'rt-single-product', $uri . '/assets/css/single-product.css', ['rt-main'], $v );
+        wp_enqueue_script( 'rt-single-product', $uri . '/assets/js/single-product.js',  [], $v, true );
+    }
+
     // Pass ajaxurl for potential future use
     wp_localize_script( 'rt-header', 'rtTheme', [
         'ajaxUrl' => admin_url( 'admin-ajax.php' ),

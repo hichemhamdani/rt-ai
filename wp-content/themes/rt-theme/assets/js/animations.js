@@ -95,6 +95,11 @@
             });
         });
 
+        // Observe elements with data-anim already set in HTML (e.g. single product hero)
+        document.querySelectorAll('[data-anim]').forEach(function (el) {
+            observer.observe(el);
+        });
+
         // Observer pour les h2 + h3 ciblés — animation lettre par lettre au scroll
         var h2Observer = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
@@ -112,6 +117,10 @@
         });
 
         document.querySelectorAll('.rt-craft__title, .rt-smart__title').forEach(function (el) {
+            h2Observer.observe(el);
+        });
+
+        document.querySelectorAll('.sp-hero-block__heading').forEach(function (el) {
             h2Observer.observe(el);
         });
     }
