@@ -35,6 +35,12 @@ add_action( 'wp_enqueue_scripts', function() {
         wp_enqueue_script( 'rt-single-product', $uri . '/assets/js/single-product.js',  [], $v, true );
     }
 
+    // Landing pages — specialties
+    if ( is_page('liquid-nitrogen-for-dermatology') ) {
+        wp_enqueue_style(  'rt-page-dermatology', $uri . '/assets/css/page-dermatology.css', ['rt-main'], $v );
+        wp_enqueue_script( 'rt-page-dermatology', $uri . '/assets/js/page-dermatology.js',  [], $v, true );
+    }
+
     // Pass ajaxurl for potential future use
     wp_localize_script( 'rt-header', 'rtTheme', [
         'ajaxUrl' => admin_url( 'admin-ajax.php' ),

@@ -120,7 +120,7 @@
             h2Observer.observe(el);
         });
 
-        document.querySelectorAll('.sp-hero-block__heading').forEach(function (el) {
+        document.querySelectorAll('.sp-hero-block__heading, .ld-hero__title').forEach(function (el) {
             h2Observer.observe(el);
         });
     }
